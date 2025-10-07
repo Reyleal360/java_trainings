@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" 
+            fx:controller="com.mycompany.ecofleet.controlador.VehiculosController">
+
+    <top>
+        <HBox spacing="10" padding="10">
+            <ChoiceBox fx:id="tipoChoice"/>
+            <TextField fx:id="marcaField" promptText="Marca"/>
+            <TextField fx:id="modeloField" promptText="Modelo"/>
+            <TextField fx:id="placaField" promptText="Placa (solo autos)"/>
+            <Button text="Agregar" onAction="#crearVehiculo"/>
+        </HBox>
+    </top>
+
+    <center>
+        <TableView fx:id="tablaVehiculos">
+            <columns>
+                <TableColumn fx:id="colId" text="ID" prefWidth="50"/>
+                <TableColumn fx:id="colTipo" text="Tipo" prefWidth="100"/>
+                <TableColumn fx:id="colMarca" text="Marca" prefWidth="120"/>
+                <TableColumn fx:id="colModelo" text="Modelo" prefWidth="120"/>
+                <TableColumn fx:id="colPlaca" text="Placa" prefWidth="100"/>
+                <TableColumn fx:id="colDisponible" text="Disponible" prefWidth="100"/>
+            </columns>
+        </TableView>
+    </center>
+</BorderPane>

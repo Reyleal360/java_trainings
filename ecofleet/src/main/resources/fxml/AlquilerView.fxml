@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.mycompany.ecofleet.controlador.AlquilerController"
+      spacing="10" padding="15">
+
+    <Label text="Alquilar Vehículo" style="-fx-font-weight: bold;"/>
+    <HBox spacing="10">
+        <TextField fx:id="usuarioIdField" promptText="Usuario ID"/>
+        <TextField fx:id="vehiculoIdField" promptText="Vehículo ID"/>
+        <Button text="Alquilar" onAction="#alquilarVehiculo"/>
+    </HBox>
+
+    <Label text="Devolver Vehículo" style="-fx-font-weight: bold;"/>
+    <HBox spacing="10">
+        <TextField fx:id="alquilerIdField" promptText="Alquiler ID"/>
+        <TextField fx:id="vehiculoDevIdField" promptText="Vehículo ID"/>
+        <TextField fx:id="tipoVehiculoField" promptText="AUTO/BICICLETA"/>
+        <TextField fx:id="kmField" promptText="Km recorridos"/>
+        <Button text="Devolver" onAction="#devolverVehiculo"/>
+    </HBox>
+</VBox>
