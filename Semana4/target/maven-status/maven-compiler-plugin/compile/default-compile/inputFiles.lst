@@ -1,0 +1,10 @@
+/home/Coder/NetBeansProjects/Semana4/src/main/java/com/mycompany/domain/repository/IDBC/ProductoDAO.java
+/home/Coder/NetBeansProjects/Semana4/src/main/java/com/mycompany/domain/modelo/Producto.java
+/home/Coder/NetBeansProjects/Semana4/src/main/java/com/mycompany/domain/service/impl/InventarioServiceImpl.java
+/home/Coder/NetBeansProjects/Semana4/src/main/java/com/mycompany/domain/config/DBconexion.java
+/home/Coder/NetBeansProjects/Semana4/src/main/java/com/mycompany/domain/exceptions/DatoInvalidoException.java
+/home/Coder/NetBeansProjects/Semana4/src/main/java/com/mycompany/domain/exceptions/PersistenciaException.java
+/home/Coder/NetBeansProjects/Semana4/src/main/java/com/mycompany/domain/repository/JDBC/ProductoDAOImpl.java
+/home/Coder/NetBeansProjects/Semana4/src/main/java/com/mycompany/domain/exceptions/DuplicadoException.java
+/home/Coder/NetBeansProjects/Semana4/src/main/java/com/mycompany/domain/service/InventarioServiceLocal.java
+/home/Coder/NetBeansProjects/Semana4/src/main/java/com/mycompany/domain/ui/MainApp.java
